@@ -1,2 +1,3 @@
 # BNZ_Climate
-Climate data from the Bonanza Creek LTER
+
+Climate data from the Bonanza Creek LTER. Data included are rain tipping buckets (mm), PAR (uM/s/m2), and air temperature (C) at 100 cm. Data can be updated by download files from the main CRREL MET station (https://www.lter.uaf.edu/data/site-detail/id/67) and Caribou Peak (https://www.lter.uaf.edu/data/site-detail/id/13). Caribou Peak only has precipitation data. BNZ_Climate_1992-2021 contains all raw data that the LTER flagged as "good" quality. BNZ_Climate_2019-2021 contains "good" raw data with a small number of missing time-steps filled in and tipping bucket "NA" values replaced with zeroes, and columns for day, week and month rolling windows for each variable and site. 
