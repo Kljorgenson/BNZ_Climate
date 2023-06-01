@@ -35,7 +35,7 @@ BNZ_climate$datetimeAK <- as.POSIXct(BNZ_climate$datetime, format = "%Y-%m-%d %H
 
 BNZ_climate$year <- format(BNZ_climate$datetimeAK, format = "%Y", tz = "America/Anchorage")
 
-write.csv(BNZ_climate, "BNZ_Climate_1992-2021.csv")
+write.csv(BNZ_climate, "BNZ_Climate_1992-2021.csv", row.names = F)
 
 ## Plot raw data
 p.ppt <- BNZ_climate %>% ggplot(aes(datetimeAK, PPT_tip_mm, color = site_id)) + geom_point()
@@ -73,4 +73,4 @@ Climate_19_21 <- Climate_19_21 %>% group_by(site_id) %>% mutate(PPT_day_sum = ro
 
 Climate_19_21 %>% ggplot(aes(datetimeAK, airtemp, color = site_id)) + geom_point()
 
-write.csv(Climate_19_21, "BNZ_Climate_2019-2021.csv")
+write.csv(Climate_19_21, "BNZ_Climate_2019-2021.csv", row.names = F)
