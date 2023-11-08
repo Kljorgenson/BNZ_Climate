@@ -1,0 +1,837 @@
+BCEFM2 -- This is a lowland black spruce site. .  Site alternate names:  Apex Beta
+
+-148.32324
+-148.32324
+64.69516
+64.69516
+
+
+
+BDI1 -- In 1969 this site burned in the Big Denver fire. It is now a birch stand. .  Site alternate names:  BD-6
+
+-150.403119
+-150.403119
+65.063454
+65.063454
+
+
+
+BDI2 -- In 1969 this site burned in the Big Denver fire. It is now a birch stand with a thick black spruce understory..  Site alternate names:  BD-10
+
+-150.368877
+-150.368877
+65.070412
+65.070412
+
+
+
+BDI3 -- In 1969 this site burned in the Big Denver fire. It is now a mixed stand comprised of aspen and black spruce..  Site alternate names:  BD-9
+
+-150.349093
+-150.349093
+65.073548
+65.073548
+
+
+
+BDI4 -- In 1969 this site burned in the Big Denver fire. It is now an aspen stand. .  Site alternate names:  BD-11
+
+-150.325606
+-150.325606
+65.078379
+65.078379
+
+
+
+BDI5 -- In 2015 this site burned in the Baker fire. Prior to the fire, it was a mixed stand dominated by aspen with some black spruce. .  Site alternate names:  BD-7
+
+-150.282723
+-150.282723
+65.095197
+65.095197
+
+
+
+BDI6 -- In 2015 this site burned in the Baker fire. Prior to the fire it was an open black spruce stand. .  Site alternate names:  BD-5
+
+-150.269876
+-150.269876
+65.10084
+65.10084
+
+
+
+BDI7 -- In 1969 this site burned in the Big Denver fire. It is now a birch stand. .  Site alternate names:  BD-2
+
+-150.063616
+-150.063616
+65.161836
+65.161836
+
+
+
+BDI8 -- In 1969 this site burned in the Big Denver fire. It is now a mixed stand with birch and black spruce. .  Site alternate names:  BD-1
+
+-150.049912
+-150.049912
+65.163552
+65.163552
+
+
+
+BDM1 -- This is a mesic, black spruce site..  Site alternate names:  
+
+-150.13574
+-150.13574
+65.15799
+65.15799
+
+
+
+BFY1 -- In 2004 this site burned in the Boundary fire..  Site alternate names:  
+
+-147.429158
+-147.429158
+65.119979
+65.119979
+
+
+
+BFY10 -- In 2004 this site burned in the Boundary fire..  Site alternate names:  
+
+-147.449411
+-147.449411
+65.118669
+65.118669
+
+
+
+BFY11 -- In 2004 this site burned in the Boundary fire. In its last inventory (2014), the site was dominated by sapling birch. .  Site alternate names:  
+
+-147.471686
+-147.471686
+65.148476
+65.148476
+
+
+
+BFY12 -- In 2004 this site burned in the Boundary fire. In its last inventory (2014), the site was dominated by sapling birch. .  Site alternate names:  
+
+-147.470284
+-147.470284
+65.147741
+65.147741
+
+
+
+BFY13 -- In 2004 this site burned in the Boundary fire. In its last inventory (2014), the site was dominated by sapling birch. .  Site alternate names:  BF99
+
+-147.460553
+-147.460553
+65.143817
+65.143817
+
+
+
+BFY4 -- In 2004 this site burned in the Boundary fire. In its last inventory (2014), the site was dominated by sapling birch. .  Site alternate names:  
+
+-147.47274
+-147.47274
+65.14981
+65.14981
+
+
+
+BFY6 -- In 2004 this site burned in the Boundary fire. In its last inventory (2014), the site was dominated by sapling birch. .  Site alternate names:  
+
+-147.477168
+-147.477168
+65.130069
+65.130069
+
+
+
+BFY7 -- In 2004 this site burned in the Boundary fire..  Site alternate names:  
+
+-147.47723
+-147.47723
+65.153652
+65.153652
+
+
+
+BFY8 -- In 2004 this site burned in the Boundary fire..  Site alternate names:  
+
+-146.667829
+-146.667829
+65.349339
+65.349339
+
+
+
+BFY9 -- In 2004 this site burned in the Boundary fire. It is currently a black spruce stand. Many relic trees exist. .  Site alternate names:  
+
+-146.675377
+-146.675377
+65.353058
+65.353058
+
+
+
+DCM1 -- This is a mixed stand, composed mainly of black spruce with some white spruce..  Site alternate names:  Dalton
+
+-150.312493
+-150.312493
+66.240395
+66.240395
+
+
+
+DCY1 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-149.77952
+-149.77952
+65.910596
+65.910596
+
+
+
+DCY10 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.236443
+-150.236443
+66.207444
+66.207444
+
+
+
+DCY12 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.333539
+-150.333539
+66.265542
+66.265542
+
+
+
+DCY13 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.184437
+-150.184437
+66.15537
+66.15537
+
+
+
+DCY14 -- In 2004 this site burned in the Dall City fire.  Site alternate names:  
+
+-150.1632
+-150.1632
+66.120336
+66.120336
+
+
+
+DCY15 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.155465
+-150.155465
+66.109119
+66.109119
+
+
+
+DCY16 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.168267
+-150.168267
+66.073353
+66.073353
+
+
+
+DCY17 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-149.752832
+-149.752832
+65.896067
+65.896067
+
+
+
+DCY2 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.257716
+-150.257716
+66.215182
+66.215182
+
+
+
+DCY3 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.167891
+-150.167891
+66.072254
+66.072254
+
+
+
+DCY4 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.151326
+-150.151326
+66.105262
+66.105262
+
+
+
+DCY5 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.156852
+-150.156852
+66.109679
+66.109679
+
+
+
+DCY6 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.170408
+-150.170408
+66.140521
+66.140521
+
+
+
+DCY7 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.179563
+-150.179563
+66.151718
+66.151718
+
+
+
+DCY8 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.203584
+-150.203584
+66.163658
+66.163658
+
+
+
+DCY9 -- In 2004 this site burned in the Dall City fire..  Site alternate names:  
+
+-150.20114
+-150.20114
+66.168628
+66.168628
+
+
+
+DDM1 -- This is a mesic-subhygric, black spruce site..  Site alternate names:  
+
+-145.723333
+-145.723333
+63.84662
+63.84662
+
+
+
+DDM2 -- This is a xeric, black spruce site..  Site alternate names:  
+
+-145.74101
+-145.74101
+63.89178
+63.89178
+
+
+
+FP5A -- This is a subxeric-mesic, black spruce site on the Tanana River floodplain..  Site alternate names:  251, BCEFM1
+
+-148.2490622
+-148.2490622
+64.68147876
+64.68147876
+
+
+
+FP5C -- FP5C is located on an older terrace of the Tanana River on the south side of the river opposite Sam Charley Island.  The climate station and neighboring research plots were burned in August of 2010 by the Willow Creek Wildfire..  Site alternate names:  253, BCEFY3
+
+-148.1472629
+-148.1472629
+64.71361404
+64.71361404
+
+
+
+FP5D -- This is a mesic, black spruce site on the Tanana River floodplain..  Site alternate names:  254, BCEFM3
+
+-148.19274
+-148.19274
+64.72541
+64.72541
+
+
+
+GRI1 -- In 1947 this site burned in the Gerstle River fire. It is now an open black spruce stand with some birch. Permafrost is currently present at this site..  Site alternate names:  GR-9
+
+-145.079202
+-145.079202
+63.772116
+63.772116
+
+
+
+GRI2 -- In 1947 this site burned in the Gerstle River fire. It is now dominated by aspen with an understory of black spruce. .  Site alternate names:  GR-2
+
+-145.055334
+-145.055334
+63.787588
+63.787588
+
+
+
+GRI3 -- In 1947 this site burned in the Gerstle River fire. It is now comprised mainly of black spruce with some aspen. .  Site alternate names:  GR-1
+
+-145.041859
+-145.041859
+63.791346
+63.791346
+
+
+
+GRI4 -- In 1947 this site burned in the Gerstle River fire. It is now a mixed stand comprised of black spruce and birch..  Site alternate names:  GR-6
+
+-145.054202
+-145.054202
+63.793417
+63.793417
+
+
+
+GRI5 -- In 1947 this site burned in the Gerstle River fire. Its overstory is now dominated by aspen and its understory by black spruce..  Site alternate names:  GR-5
+
+-145.076628
+-145.076628
+63.795019
+63.795019
+
+
+
+GRI6 -- In 1947 this site burned in the Gerstle River fire. It is now a mixed stand of black spruce and aspen. .  Site alternate names:  GR-3
+
+-145.055548
+-145.055548
+63.800401
+63.800401
+
+
+
+GRI7 -- In 1947 this site burned in the Gerstle River fire. Its overstory is now dominated by aspen, and it has an open black spruce understory. .  Site alternate names:  GR-4
+
+-145.061443
+-145.061443
+63.801791
+63.801791
+
+
+
+GRM1 -- This is a mesic, black spruce site..  Site alternate names:  
+
+-144.3317838
+-144.3317838
+63.69577185
+63.69577185
+
+
+
+GRM3 -- This is a mesic-subhygric, black spruce site..  Site alternate names:  
+
+-144.95382471
+-144.95382471
+63.81365346
+63.81365346
+
+
+
+GRM4 -- This is a subxeric-mesic, black spruce site..  Site alternate names:  
+
+-144.95546709
+-144.95546709
+63.81513074
+63.81513074
+
+
+
+GSI1 -- In 1966 this site burned in the Goldstream fire. It is now a black spruce stand. .  Site alternate names:  GS-3
+
+-148.41375
+-148.41375
+64.80004
+64.80004
+
+
+
+GSI2 -- In 1966 this site burned in the Goldstream fire. It is now an open black spruce stand. .  Site alternate names:  GS-2
+
+-148.42039
+-148.42039
+64.80255
+64.80255
+
+
+
+GSI3 -- In 1966 this site burned in the Goldstream fire. It is now a black spruce stand. .  Site alternate names:  GS-1
+
+-148.49298
+-148.49298
+64.80951
+64.80951
+
+
+
+GSM1 -- This is a lowland black spruce site. .  Site alternate names:  TKN0131L
+
+-148.31676
+-148.31676
+64.80258
+64.80258
+
+
+
+GSM2 -- This is a xeric, black spruce site..  Site alternate names:  
+
+-148.31574
+-148.31574
+64.80334
+64.80334
+
+
+
+GSM3 -- This is a subhygric, black spruce site. The organic layer at this here is over 3.5m deep. .  Site alternate names:  
+
+-147.832248
+-147.832248
+64.916152
+64.916152
+
+
+
+GSM4 -- This is a subxeric-mesic, black spruce site..  Site alternate names:  
+
+-148.25307
+-148.25307
+64.942214
+64.942214
+
+
+
+GSM5 -- This is a subxeric, black spruce site..  Site alternate names:  
+
+-147.65685
+-147.65685
+64.9985625
+64.9985625
+
+
+
+HR1A -- This is a meteorological site near the crest of Helmer's Ridge, just west of the C4 basin, and at an elevation of approximately 610 meters.  Site alternate names:  Helmer's Ridge, Helmer's, Helmers, HELM, 400, HR1, CPCRWY1
+
+-147.5435743
+-147.5435743
+65.17091866
+65.17091866
+
+
+
+LGI1 -- In 1958 this site burned in the Livengood fire. It is now an open, mixed stand of black and white spruce. .  Site alternate names:  LG-2
+
+-148.86419
+-148.86419
+65.42936
+65.42936
+
+
+
+LGI2 -- In 1958 this site burned in the Livengood fire. It is now a mixed stand composed mainly of black spruce, with some birch and white spruce. .  Site alternate names:  LG-3
+
+-148.7609
+-148.7609
+65.44649
+65.44649
+
+
+
+MDI1 -- In 1958 this site burned in the Murphy Dome fire. It is now a black spruce stand with a birch component. .  Site alternate names:  MD-5
+
+-148.381474
+-148.381474
+64.879074
+64.879074
+
+
+
+MDI2 -- In 1958 this site burned in the Murphy Dome fire. It is now a mixed black spruce / birch stand. .  Site alternate names:  MD-7
+
+-148.389008
+-148.389008
+64.879249
+64.879249
+
+
+
+MDI3 -- In 1958 this site burned in the Murphy Dome fire. It is now a birch stand with black spruce component. .  Site alternate names:  MD-6
+
+-148.382724
+-148.382724
+64.880388
+64.880388
+
+
+
+MDI4 -- In 1958 this site burned in the Murphy Dome fire. It is now a dense, mixed stand composed mainly of black spruce with some birch and aspen.  .  Site alternate names:  MD-2
+
+-148.355499
+-148.355499
+64.882718
+64.882718
+
+
+
+MDI5 -- In 1958 this site burned in the Murphy Dome fire. It is now an open black spruce stand. .  Site alternate names:  MD-8
+
+-148.398187
+-148.398187
+64.882947
+64.882947
+
+
+
+MDM1 -- This mature black spruce stand is located adjacent to the other Murphy Dome MD sites, in an area that did not burn in the 1958 Murphy Dome fire. .  Site alternate names:  MD-3
+
+-148.37117
+-148.37117
+64.871571
+64.871571
+
+
+
+NRM1 -- This is a lowland black spruce site. .  Site alternate names:  Nenana Ridge Bottom
+
+-148.82573
+-148.82573
+64.60724
+64.60724
+
+
+
+NRM2 -- This is a mesic-subhygric, black spruce site. .  Site alternate names:  Nenana Ridge
+
+-148.55992
+-148.55992
+64.68328
+64.68328
+
+
+
+SL1A -- In the summer of 2001 the Survey line fire burned a section of the Tanana flats just south of BCEF.  This site was set up to match the rest of the floodplain successional sites except that instead of flooding the disturbance is fire.  Before this site was burned it was and open black spruce forest with a feathermoss dominated ground cover..  Site alternate names:  SL1B, BCEFY2
+
+-148.2812152
+-148.2812152
+64.65421365
+64.65421365
+
+
+
+SL1B -- In the summer of 2001 the Survey Line fire burned a section of the Tanana flats just south of BCEF.  This site was set up to match the rest of the floodplain successional sites.  Before the burn this site was an open black spruce forest with a predominantly cotton grass tussock ground cover..  Site alternate names:  SL1A, BCEFY1
+
+-148.2861185
+-148.2861185
+64.64826898
+64.64826898
+
+
+
+TRM1 -- This is a subxeric-mesic, black spruce site..  Site alternate names:  
+
+-148.13914
+-148.13914
+65.25333
+65.25333
+
+
+
+TRM2 -- This is a subhygric, black spruce site.  .  Site alternate names:  Tatalina River 1
+
+-148.338
+-148.338
+65.31219
+65.31219
+
+
+
+TRM3 -- This is a subhygric, black spruce site.  .  Site alternate names:  Tatalina River 2
+
+-148.33536
+-148.33536
+65.31458
+65.31458
+
+
+
+TRM4 -- This is a mesic, black spruce site..  Site alternate names:  
+
+-148.23179
+-148.23179
+65.40996
+65.40996
+
+
+
+UP4A -- This is a subxeric-mesic, black spruce site..  Site alternate names:  BCEFM4
+
+-148.2986802
+-148.2986802
+64.76810641
+64.76810641
+
+
+
+UP4B -- This is a subxeric-mesic, black spruce site..  Site alternate names:  BCEFM5
+
+-148.2735896
+-148.2735896
+64.77160064
+64.77160064
+
+
+
+UP4C -- This is a subhygric, black spruce site..  Site alternate names:  CPCRWM1
+
+-147.4913325
+-147.4913325
+65.15393372
+65.15393372
+
+
+
+UP4D -- This is a subxeric, black spruce site..  Site alternate names:  CPCRWM2
+
+-147.5505574
+-147.5505574
+65.16905378
+65.16905378
+
+
+
+WCM1 -- This is a subhygric, black spruce site.  .  Site alternate names:  Washington Creek 1
+
+-147.97308
+-147.97308
+65.12465
+65.12465
+
+
+
+WCM2 -- This is a mesic-subhygric, black spruce site. .  Site alternate names:  Washington Creek 3
+
+-147.97132
+-147.97132
+65.13634
+65.13634
+
+
+
+WCM3 -- This is a mesic-subhygric, black spruce site..  Site alternate names:  
+
+-147.86305
+-147.86305
+65.15466
+65.15466
+
+
+
+WCM4 -- This is a subxeric, black spruce site..  Site alternate names:  
+
+-147.89408
+-147.89408
+65.167267
+65.167267
+
+
+
+WDI1 -- In 1971 this site burned in the Wickersham Dome fire. It is now a black spruce stand. .  Site alternate names:  WD-1
+
+-148.080849
+-148.080849
+65.116602
+65.116602
+
+
+
+WDI2 -- In 1971 this site burned in the Wickersham Dome fire. It is now a birch stand with some black spruce. .  Site alternate names:  WD-2
+
+-148.07587
+-148.07587
+65.124643
+65.124643
+
+
+
+WDI3 -- In 1971 this site burned in the Wickersham Dome fire. It is now a black spruce stand with some birch. .  Site alternate names:  WD-3
+
+-148.076713
+-148.076713
+65.125453
+65.125453
+
+
+
+WDI4 -- In 1971 this site burned in the Wickersham Dome fire. It is now a birch stand with some black spruce..  Site alternate names:  WD-4
+
+-148.077367
+-148.077367
+65.126346
+65.126346
+
+
+
+WDI5 -- In 1971 this site burned in the Wickersham Dome fire. It is now a mixed aspen / black spruce stand with some birch. .  Site alternate names:  WD-6
+
+-148.018896
+-148.018896
+65.145285
+65.145285
+
+
+
+WDI6 -- In 1971 this site burned in the Wickersham Dome fire. It is now an aspen stand. .  Site alternate names:  WD-8
+
+-148.026427
+-148.026427
+65.148679
+65.148679
+
+
+
+YRM1 -- This is a subxeric-mesic, black spruce site..  Site alternate names:  
+
+-148.92284
+-148.92284
+65.56605
+65.56605
+
+
+
+GRM2 -- This mature black spruce stand is located adjacent to other intermediate Gerstle River GR sites, in an area that did not burn in the 1947 Gerstle fire..  Site alternate names:  GR-10
+
+-145.063916
+-145.063916
+63.787641
+63.787641
+
+
+ 

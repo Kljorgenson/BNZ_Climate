@@ -74,3 +74,33 @@ Climate_19_21 <- Climate_19_21 %>% group_by(site_id) %>% mutate(PPT_day_sum = ro
 Climate_19_21 %>% ggplot(aes(datetimeAK, airtemp, color = site_id)) + geom_point()
 
 write.csv(Climate_19_21, "BNZ_Climate_2019-2021.csv", row.names = F)
+
+
+
+### ALD from "Bonanza Creek LTER: Active Layer Depth or Permafrost Presence for the Regional Site Network"
+library(data.table)
+ALD <- fread("Raw data/605_RSN_ActiveLayerDepths_2021.txt", select = c(1:5)) %>% filter(flag == "G", depth > 0) %>% group_by(date, site) %>%
+  summarise(depth = mean(depth, na.rm = T))
+head(ALD)
+length(unique(ALD$site))
+
+ALD_site <- fread("Raw data/knb-lter-bnz.605.5-sites.txt", select = 1, blank.lines.skip = TRUE, fill = T)
+
+ALD_sites <- data.frame(site = ALD_site[seq(1, length(ALD_site$V1), 5)], lon = ALD_site[seq(2, length(ALD_site$V1), 5)], lat = ALD_site[seq(4, length(ALD_site$V1), 5)])
+names(ALD_sites) <- c("site", "lon", "lat")
+ALD_sites$lat <- as.numeric(ALD_sites$lat)
+ALD_sites$lon <- as.numeric(ALD_sites$lon)
+
+ALD_2015 <- ALD %>% filter(date > "2015-01-01")
+
+ALD_2015 %>% filter(site == "DCM1") %>% ggplot(aes(date, depth, color = site)) + geom_point()
+ALD_2015 %>% group_by(site) %>% filter(is.na(depth) == F) %>% summarise(n = length(depth)) %>% filter(n > 4) %>% View()
+
+
+# Find closest site
+ALD_sites$Vault <- sqrt(((ALD_sites$lon + 147.714949)^2) + ((ALD_sites$lat-65.029315)^2))
+ALD_sites$Moose <- sqrt(((ALD_sites$lon + 147.0539195)^2) + ((ALD_sites$lat-64.71415308)^2))
+ALD_sites$French <- sqrt(((ALD_sites$lon + 146.916364)^2) + ((ALD_sites$lat-64.60667379)^2))
+ALD_sites$Stuart <- sqrt(((ALD_sites$lon + 146.479933)^2) + ((ALD_sites$lat-64.75408)^2))
+ALD_sites$Poker <- sqrt(((ALD_sites$lon + 147.486655)^2) + ((ALD_sites$lat-65.152855)^2))
+
