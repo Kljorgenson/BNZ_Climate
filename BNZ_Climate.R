@@ -5,6 +5,7 @@ library(ggplot2)
 library(dplyr)
 library(lubridate)
 library(zoo)
+library(data.table)
 
 
 ### Load data through 2021
@@ -96,7 +97,6 @@ ALD_2015 <- ALD %>% filter(date > "2015-01-01")
 ALD_2015 %>% filter(site == "DCM1") %>% ggplot(aes(date, depth, color = site)) + geom_point()
 ALD_2015 %>% group_by(site) %>% filter(is.na(depth) == F) %>% summarise(n = length(depth)) %>% filter(n > 4) %>% View()
 
-
 # Find closest site
 ALD_sites$Vault <- sqrt(((ALD_sites$lon + 147.714949)^2) + ((ALD_sites$lat-65.029315)^2))
 ALD_sites$Moose <- sqrt(((ALD_sites$lon + 147.0539195)^2) + ((ALD_sites$lat-64.71415308)^2))
@@ -104,3 +104,68 @@ ALD_sites$French <- sqrt(((ALD_sites$lon + 146.916364)^2) + ((ALD_sites$lat-64.6
 ALD_sites$Stuart <- sqrt(((ALD_sites$lon + 146.479933)^2) + ((ALD_sites$lat-64.75408)^2))
 ALD_sites$Poker <- sqrt(((ALD_sites$lon + 147.486655)^2) + ((ALD_sites$lat-65.152855)^2))
 
+
+
+## Snow depth from Jake's storms repo (Snowtel?)
+
+filelist = list.files(path = "Raw data/SWE", full.names = TRUE, recursive = TRUE )
+filelist
+df.list <- lapply(filelist, read.csv) # set file names
+SWE <- rbindlist(df.list)
+head(SWE)
+names(SWE) <- c("site.id", "date", "time", "depth_in", "prec_in")
+SWE$date <- as.Date(SWE$date, format = "%m/%d/%Y")
+SWE$year <- format(SWE$date, "%y")
+SWE$julian <- yday(SWE$date)
+
+SWE %>% filter(depth_in >= 0) %>% ggplot(aes(date, depth_in, color = year)) + geom_line()
+
+SWE <- SWE %>% filter(depth_in >= 0)
+SWE$diff <- c(NA, diff(SWE$depth_in))
+max <- SWE %>% group_by(year) %>% filter(diff == min(diff))
+
+SWE %>% ggplot(aes(date, depth_in, color = year)) + geom_line(linetype = 2) +
+  geom_vline(data = max[-c(2),], aes(xintercept = date, color = year)) + geom_text(data = max[-c(2),], aes(label = julian), hjust = -0.5) + xlab("Date") + ylab("SWE (in)")
+
+SWE %>% group_by(year) %>% filter(depth_in == max(depth_in)) %>% select(year, depth_in) %>% unique()
+
+# SWE from USDA (only through 2020)
+USDA_SWE <- read.csv("Raw data/USDA_swe.txt", skip = 59, header = T)
+head(USDA_SWE)
+names(USDA_SWE) <- c("Date", "SWE", "QC")
+USDA_SWE$Date <- as.Date(USDA_SWE$Date)
+USDA_SWE$Year <- format(USDA_SWE$Date, "%Y")
+USDA_SWE %>% ggplot(aes(Date, SWE)) + geom_point()
+
+USDA_SWE$diff <- c(NA, diff(USDA_SWE$SWE))
+
+USDA_SWE %>% ggplot(aes(Date, diff)) + geom_point()
+
+USDA_SWE %>% group_by(Year) %>% filter(diff == min(diff))
+
+
+yday(as.Date('2015-05-06'))
+
+# Other snow depth for USDA
+USDA_SD <- read.csv("Raw data/snow free days.csv", header = T)
+head(USDA_SD)
+names(USDA_SD) <- c("Year", "Snotel", "Gilmore", "Upper_Chena", "Chena_Ridge", "Munson", "Monument")
+USDA_SD[,3] <- yday(as.Date(USDA_SD[,3], format = "%m/%d/%Y"))
+USDA_SD[,4] <- yday(as.Date(USDA_SD[,4], format = "%m/%d/%Y"))
+USDA_SD[,5] <- yday(as.Date(USDA_SD[,5], format = "%m/%d/%Y"))
+USDA_SD[,6] <- yday(as.Date(USDA_SD[,6], format = "%m/%d/%Y"))
+USDA_SD[,7] <- yday(as.Date(USDA_SD[,7], format = "%m/%d/%Y"))
+
+
+USDA_SD$mean <- round(rowMeans( USDA_SD[,2:7] ))
+
+USDA_SD %>% ggplot(aes(x=Year)) + geom_line(aes(y=Snotel)) +
+  geom_line(aes(y=Gilmore)) +
+  #geom_line(aes(y=Keystone), color = "blue") +
+  geom_line(aes(y=Upper_Chena)) +
+  geom_line(aes(y=Chena_Ridge)) +
+  geom_line(aes(y=Munson)) +
+  geom_line(aes(y=Monument)) +
+  geom_line(aes(y=mean), color = 2) + ylab("Julian day")
+
+write.csv(USDA_SD, "Last snow day.csv")
