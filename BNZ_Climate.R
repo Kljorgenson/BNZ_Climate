@@ -146,7 +146,9 @@ USDA_SWE %>% group_by(Year) %>% filter(diff == min(diff))
 
 yday(as.Date('2015-05-06'))
 
-# Other snow depth for USDA
+
+
+## Other snow depth for USDA
 USDA_SD <- read.csv("Raw data/snow free days.csv", header = T)
 head(USDA_SD)
 names(USDA_SD) <- c("Year", "Snotel", "Gilmore", "Upper_Chena", "Chena_Ridge", "Munson", "Monument")
@@ -156,16 +158,19 @@ USDA_SD[,5] <- yday(as.Date(USDA_SD[,5], format = "%m/%d/%Y"))
 USDA_SD[,6] <- yday(as.Date(USDA_SD[,6], format = "%m/%d/%Y"))
 USDA_SD[,7] <- yday(as.Date(USDA_SD[,7], format = "%m/%d/%Y"))
 
-
-USDA_SD$mean <- round(rowMeans( USDA_SD[,2:7] ))
+# Select 4 lower elevation sites
+USDA_SD <- USDA_SD %>% select(Year, Snotel, Gilmore, Chena_Ridge, Monument)
+USDA_SD$mean <- round(rowMeans( USDA_SD[,2:5] ))
 
 USDA_SD %>% ggplot(aes(x=Year)) + geom_line(aes(y=Snotel)) +
   geom_line(aes(y=Gilmore)) +
   #geom_line(aes(y=Keystone), color = "blue") +
-  geom_line(aes(y=Upper_Chena)) +
+  #geom_line(aes(y=Upper_Chena)) +
   geom_line(aes(y=Chena_Ridge)) +
-  geom_line(aes(y=Munson)) +
+  #geom_line(aes(y=Munson)) +
   geom_line(aes(y=Monument)) +
   geom_line(aes(y=mean), color = 2) + ylab("Julian day")
 
-write.csv(USDA_SD, "Last snow day.csv")
+ggsave("Last snow day plot.png")
+
+write.csv(USDA_SD, "Last snow day.csv", row.names = F)
